@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://www.bmw.ru/content/dam/bmw/common/images/logo-icons/BMW/BMW_White_Logo.svg.asset.1670245093434.svg" alt="BMW Logo">
+        </div>
+        <h1>BMW</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#cars">Автомобили</a></li>
+                <li><a href="#used-cars">Автомобили с пробегом</a></li>
+                <li><a href="#service">Запись на сервис</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+                <li><a href="https://www.bmw.ru/ru/topics/fascination-bmw/actual-history.html#2">История Бренда BMW</a></li>
+            </ul>
+        </nav>
+        <div class="registration">
+            <a href="#register">Регистрация</a>
+        </div>
+    </header>
+
+    <div class="photo-module">
+        <div class="header__logo">ВСЕ МЕНЯЕТСЯ. ЦЕННОСТИ ОСТАЮТСЯ.</div>
+        <img src="https://bmw.scene7.com/is/image/BMW/banner_new?wid=1656&hei=969" alt="BMW Banner">
+    </div>
+
+    <section id="about">
+        <h2>О нас</h2>
+        <p>Мы — официальный дилер BMW, предлагающий широкий выбор новых и подержанных автомобилей, а также качественный сервис. Наша команда профессионалов всегда готова помочь вам с выбором и обслуживанием вашего автомобиля. Мы стремимся обеспечить нашим клиентам максимальный комфорт и удовлетворение от покупки.</p>
+        <p>Мы предлагаем:</p>
+        <ul>
+            <li>Тест-драйвы всех моделей</li>
+            <li>Финансовые решения и кредитование</li>
+            <li>Гарантийное и постгарантийное обслуживание</li>
+            <li>Оригинальные запчасти и аксессуары</li>
+        </ul>
+        <!-- Добавлен блок с преимуществами -->
+        <div class="about-features">
+            <div class="feature">
+                <img src="https://www.bmw.ru/content/dam/bmw/marketRU/bmw_ru/topics/fascination-bmw/careers/career_best.jpg/jcr:content/renditions/cq5dam.resized.img.1185.large.time1449061111403.jpg" alt="Преимущество 1">
+                <h3>Качество</h3>
+                <p>Мы предлагаем только оригинальные запчасти и сертифицированные автомобили.</p>
+            </div>
+            <div class="feature">
+                <img src="https://www.bmw.ru/content/dam/bmw/marketRU/bmw_ru/topics/fascination-bmw/history2021/history-3.jpg/jcr:content/renditions/cq5dam.resized.img.585.low.time1624452499695.jpg" alt="Преимущество 2">
+                <h3>Комфорт</h3>
+                <p>Наши салоны оборудованы по последнему слову техники для вашего удобства.</p>
+            </div>
+            <div class="feature">
+                <img src="https://www.bmw.ru/content/dam/bmw/marketRU/bmw_ru/test/oil_promo_890.png/jcr:content/renditions/cq5dam.resized.img.585.low.time1489159376272.png " alt="Преимущество 3">
+                <h3>Профессионализм</h3>
+                <p>Наша команда — это опытные специалисты, готовые решить любую задачу.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="cars">
+        <h2>Автомобили</h2>
+        <div class="car-list">
+            <div class="car-item">
+                <img src="https://avatars.mds.yandex.net/i?id=62aa29584b26c5bf2cd8dc8945ba91bd9075eb4cff38b61c-12996563-images-thumbs&n=13" alt="BMW X5">
+                <h3>BMW X5 M</h3>
+                <p>Мощный и элегантный внедорожник с передовыми технологиями и комфортом. Высокая проходимость и динамика.</p>
+                <a href="https://www.bmw.ru/ru/all-models/m-series/x5-m/2023/bmw-x5-m-automobiles-overview.html">Подробнее</a>
+            </div>
+            <div class="car-item">
+                <img src="https://avatars.mds.yandex.net/i?id=684b2634a5013c007f6e4e4327df8e61c8788501-5858058-images-thumbs&n=13" alt="BMW M5 g90">
+                <h3>BMW M5 g90</h3>
+                <p>BMW M5 с системой M Hybrid - автомобиль, насыщенный высокими технологиями. Его энергичный высокопроизводительный бензиновый двигатель V8 M TwinPower Turbo в сочетании с электрическим приводом развивает впечатляющую суммарную мощность 727 л.с. Комфорт, динамика и управляемость образуют идеальный симбиоз бизнес-седана и чистокровного спортивного автомобиля.</p>
+                <a href="https://www.bmw.ru/ru/all-models/m-series/m5-sedan/2024/bmw-m5-sedan.html">Подробнее</a>
+            </div>
+            <div class="car-item">
+                <img src="https://avatars.mds.yandex.net/i?id=89cfd8116d11c2c0d096d7441f67c0add0e6bb0a-13486952-images-thumbs&n=13" alt="BMW M5 CS">
+                <h3>BMW M5 CS</h3>
+                <p>Самый мощный BMW M5 в истории: BMW M5 CS. Со снижением массы на 70 кг, модель CS обеспечивает впечатляющие показатели производительности и ощущение генов BMW M5 во всем, до мельчайших деталей. Двигатель с мощностью 635 л.с. разгоняет высокопроизводительный седан с 0 до 100 км/ч всего за 3.0 с.</p>
+                <a href="https://www.bmw.ru/ru/all-models/m-series/m5-sedan/2021/bmw-5-series-sedan-m-automobiles-overview.html">Подробнее</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="used-cars">
+        <h2>Автомобили с пробегом</h2>
+        <div class="car-list">
+            <div class="car-item">
+                <img src="https://60.img.avito.st/image/1/1.CRqac7a4pfOsxCf-hCMjG4zSp_Uk0iflrN-n8Srarfks.xabX07O30k-OqAHxOZe3PnSqvjrqBiRTaRQpt9ndQhs" alt="BMW 3 G80">
+                <h3>BMW 3 g80</h3>
+                <p>Компактный седан с отличной управляемостью и современным интерьером. Идеальный выбор для города.</p>
+                <a href="https://www.avito.ru/urus-martan/avtomobili/bmw_m3_3.0_at_2023_12_000_km_4465109846">Подробнее</a>
+            </div>
+            <div class="car-item">
+                <img src="https://70.img.avito.st/image/1/1.bFFRFba4wLhnokK1BXREHk60wr7vtEKuZ7nCuuG8yLLn.STKLO3WY6bT7Ac_elVi6dU6ONWqQ4yrl44j6r4J7cWk" alt="BMW 5 F90">
+                <h3>BMW 5 F90</h3>
+                <p>Бизнес-седан с роскошным салоном и передовыми технологиями. Комфорт и стиль в одном автомобиле.</p>
+                <a href="https://www.avito.ru/moskva/avtomobili/bmw_m5_4.4_at_2018_51_000_km_4562814997">Подробнее</a>
+            </div>
+            <div class="car-item">
+                <img src="https://30.img.avito.st/image/1/1.zk9M8ba4YqZ6RuCrXO77JFJQYKDyUOCwel1gpPxYaqz6.XQxpKwZW_IkU0pjbjMxn7ZlpWc2rf5VE1hw4OnT3JoE" alt="BMW 7 ">
+                <h3>BMW 7 series</h3>
+                <p>Совершенные характеристики, максимальное удовольствие. BMW 7 серии обращает на себя внимание внушительным обликом, исключительной мощностью и максимальным комфортом. BMW 750Li с новым 8-цилиндровым бензиновым двигателем BMW TwinPower Turbo и интеллектуальной системой полного привода xDrive в стандартной комплектации рожден, чтобы стать безоговорочным лидером.</p>
+                <a href="https://www.avito.ru/kirovskaya_oblast_kirov/avtomobili/bmw_7_seriya_3.0_at_2018_140_000_km_4721587494">Подробнее</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="service">
+        <h2>Запись на сервис</h2>
+        <p>Запишитесь на сервис вашего BMW прямо сейчас! Наши специалисты обеспечат качественное обслуживание вашего автомобиля в кратчайшие сроки.</p>
+        <form action="#" method="post">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" name="phone" placeholder="+7 (___) ___-__-__" required>
+            <label for="date">Дата:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="service-type">Тип сервиса:</label>
+            <select id="service-type" name="service-type" required>
+                <option value="">Выберите тип сервиса</option>
+                <option value="maintenance">Техническое обслуживание</option>
+                <option value="repair">Ремонт</option>
+                <option value="diagnostics">Диагностика</option>
+                <option value="detailing">Детейлинг</option>
+            </select>
+            <label for="message">Дополнительная информация:</label>
+            <textarea id="message" name="message" placeholder="Укажите дополнительные пожелания"></textarea>
+            <button type="submit">Записаться</button>
+        </form>
+        <p>Или свяжитесь с нами по телефону: <strong>+7 (962) 772-87-45</strong> для уточнения деталей.</p>
+    </section>
+    <section id="reviews">
+        <h2>Отзывы</h2>
+        <div class="review-list">
+            <div class="review-item">
+                <div class="avatar">ИИ</div> <!-- Аватар из текста -->
+                <div class="rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                </div>
+                <h3>Иван Иванов</h3>
+                <p>Отличный сервис! Купил автомобиль, все прошло гладко. Рекомендую!</p>
+            </div>
+            <div class="review-item">
+                <div class="avatar">ПП</div> <!-- Аватар из текста -->
+                <div class="rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                </div>
+                <h3>Петр Петров</h3>
+                <p>Очень доволен покупкой. Рекомендую!</p>
+            </div>
+            <div class="review-item">
+                <div class="avatar">АС</div> <!-- Аватар из текста -->
+                <div class="rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                </div>
+                <h3>Анна Сидорова</h3>
+                <p>Прекрасный автосалон, все на высшем уровне. Спасибо за отличный сервис!</p>
+            </div>
+        </div>
+
+    <section id="contacts">
+        <h2>Контакты</h2>
+        <div class="contacts-container">
+            <div class="contacts-info">
+                <p>Адрес: г. Наличик, ул. Орд, 172</p>
+                <p>Телефон: +7 (962) 772-87-45</p>
+                <p>Email: it.hub@.ru</p>
+                <p>График работы:</p>
+                <ul>
+                    <li>Пн-Пт: 9:00 - 19:00</li>
+                    <li>Сб: 10:00 - 16:00</li>
+                    <li>Вс: выходной</li>
+                </ul>
+                <!-- Дополнительные контакты -->
+                <div class="additional-contacts">
+                    <h3>Дополнительные контакты</h3>
+                    <p>Отдел продаж: +7 (962) 772-87-46</p>
+                    <p>Сервисный центр: +7 (962) 772-87-47</p>
+                    <p>Email для сотрудничества: partnership@it.hub.ru</p>
+                </div>
+            </div>
+
+        <!-- Карта -->
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2894.4043414893536!2d43.60005607664628!3d43.49389986271861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405a071b84aec629%3A0x4c009c02484b3caf!2sIThub%20college!5e0!3m2!1sru!2sru!4v1733821511276!5m2!1sru!2sru" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- Добавлен еще один блок регистрации -->
+    <section id="register">
+        <h2>Регистрация</h2>
+        <p>Зарегистрируйтесь, чтобы получать эксклюзивные предложения, новости и скидки на сервис и покупку автомобилей BMW.</p>
+        <form action="#" method="post">
+            <label for="reg-name-2">Имя:</label>
+            <input type="text" id="reg-name-2" name="reg-name-2" placeholder="Введите ваше имя" required>
+            <label for="reg-email-2">Email:</label>
+            <input type="email" id="reg-email-2" name="reg-email-2" placeholder="Введите ваш email" required>
+            <label for="reg-password-2">Пароль:</label>
+            <input type="password" id="reg-password-2" name="reg-password-2" placeholder="Придумайте пароль" required>
+            <label for="reg-phone">Телефон:</label>
+            <input type="tel" id="reg-phone" name="reg-phone" placeholder="+7 (___) ___-__-__" required>
+            <label for="reg-city">Город:</label>
+            <input type="text" id="reg-city" name="reg-city" placeholder="Введите ваш город">
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+        <p>Уже есть аккаунт? <a href="#login">Войти</a></p>
+    </section>  
+
+    <footer>
+        <p>&copy; 2024 Автосалон "BMW"</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+/* Общие стили */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    overflow-x: hidden; /* Убираем горизонтальный скролл */
+}
+
+header {
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    animation: fadeInDown 1s;
+    transition: background-color 0.3s ease;
+}
+
+header:hover {
+    background-color: rgba(52, 73, 94, 0.8); /* Прозрачный фон */
+}
+
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 20px;
+    transition: transform 0.3s;
+}
+
+.logo img:hover {
+    transform: scale(1.1) rotate(10deg); /* Увеличение и небольшой поворот */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    color: #3498db;
+    transform: translateY(-3px);
+}
+
+.registration {
+    margin-right: 20px;
+}
+
+.registration a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.registration a:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+}
+
+.photo-module img {
+    width: 100%;
+    height: auto;
+    display: block;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #34495e;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    animation: fadeInUp 1s;
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+section h2 {
+    color: #ecf0f1;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    animation: slideIn 1s;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
+
+.car-list, .review-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.car-item, .review-item {
+    width: 30%;
+    margin-bottom: 20px;
+    background-color: #2c3e50;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    animation: fadeIn 1s;
+}
+
+.car-item:hover, .review-item:hover {
+    transform: scale(1.05);
+}
+
+.car-item img, .review-item img {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.car-item img:hover, .review-item img:hover {
+    transform: scale(1.1);
+}
+
+.car-item h3, .review-item h3 {
+    color: #ecf0f1;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.car-item p, .review-item p {
+    color: #bdc3c7;
+    font-size: 16px;
+}
+
+.car-item a, .review-item a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.car-item a:hover, .review-item a:hover {
+    color: #2980b9;
+    transform: translateY(-3px);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ecf0f1;
+}
+
+form input, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #7f8c8d;
+    border-radius: 5px;
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+form button {
+    background-color: #e74c3c;
+    color: #ecf0f1;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+form button:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #34495e;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    animation: fadeInUp 1s;
+}
+
+footer p {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Дополнительные анимации */
+
+/* Анимация для заголовка */
+.header__logo {
+    font-size: 50px;
+    font-weight: 400;
+    color: #e9e9e9;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+/* Анимация для карточек автомобилей */
+.car-item {
+    animation: slideInLeft 1s;
+}
+
+@keyframes slideInLeft {
+    from { transform: translateX(-100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+/* Анимация для формы */
+form input:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+    animation: inputFocus 0.5s;
+}
+
+@keyframes inputFocus {
+    from { transform: scale(1); }
+    to { transform: scale(1.05); }
+}
+
+/* Анимация для футера */
+footer {
+    animation: fadeInUp 1s;
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Анимация для ссылок */
+a {
+    position: relative;
+    transition: color 0.3s;
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #3498db;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s;
+}
+
+a:hover::after {
+    transform: scaleX(1);
+}
+
+/* Анимация для баннера */
+.photo-module img {
+    animation: zoomIn 2s;
+}
+
+@keyframes zoomIn {
+    from { transform: scale(0.9); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+/* Анимация для кнопок */
+.registration a {
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
+
+/* Анимация для текста */
+section p {
+    animation: fadeInText 2s;
+}
+
+@keyframes fadeInText {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Дополнительные стили для картинок */
+.contacts-images img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.contacts-images img:hover {
+    transform: scale(1.1);
+}
+
+/* Выравнивание картинок */
+.contacts-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts-info {
+    flex: 1;
+}
+
+.contacts-images {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Анимация для карты */
+.map {
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+/* Общие стили для формы */
+#service {
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #34495e, #34495e); /* Градиентный фон */
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+}
+
+#service h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#service p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+#service form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#service label {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+#service input,
+#service select,
+#service textarea {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(253, 253, 253, 0.9);
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+#service input:focus,
+#service select:focus,
+#service textarea:focus {
+    background: #ffffff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    transform: scale(1.02);
+}
+
+#service button {
+    padding: 12px 20px;
+    background: #e74c3c; /* Оранжевый цвет */
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#service button:hover {
+    background: #7c1207; /* Темнее красный при наведении */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+#service button:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+#service strong {
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Анимация для формы */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#service form {
+    animation: fadeIn 1s ease-out;
+}
+
+/* Анимация для текста */
+#service p {
+    animation: fadeIn 1.5s ease-out;
+}
+
+
+/* Стили для раздела регистрации */
+#register {
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #34495e, #34495e); /* Градиентный фон */
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgb(255, 255, 255);
+    margin: 20px 0;
+}
+
+#register h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(34, 29, 29, 0.5);
+}
+
+#register p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+#register form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#register label {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+#register input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.9);
+    font-size: 1rem;
+}
+
+
+/* Общие стили для раздела "О нас" */
+#about {
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #34495e, #34495e); /* Градиентный фон */
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+#about ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+#about ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #f0f0f0;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+#about ul li:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateX(10px);
+}
+
+/* Стили для блока с преимуществами */
+.about-features {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.feature {
+    flex: 1 1 calc(33.333% - 60px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 60px;
+    border-radius: 90px;
+    text-align: center;
+    margin: 50px;
+    transition: all 0.8s ease;
+}
+
+.feature:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.feature img {
+    width: 250px;
+    height: 245px;
+    margin-bottom: 1px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    transition: all 0.3s ease;
+}
+
+.feature img:hover {
+    transform: rotate(360deg);
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ff8c00;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #f0f0f0;
+}
+
+/* Анимация для текста */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#about h2,
+#about p,
+#about ul,
+.about-features {
+    animation: fadeIn 1.5s ease-out;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #34495e;
+}
+h2 {
+    text-align: center;
+    color: #333;
+}
+.review-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.review-item {
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.avatar {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background: #007BFF;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.rating {
+    margin-bottom: 10px;
+}
+.star {
+    color: #FFD700;
+    font-size: 20px;
+}
+h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+p {
+    color: #555;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+// Анимация появления логотипа BMW
+window.addEventListener('load', function () {
+    const logo = document.querySelector('.logo img');
+    logo.style.opacity = '0';
+    logo.style.transform = 'scale(0.8)';
+    logo.style.transition = 'opacity 1s ease, transform 1s ease';
+
+    setTimeout(() => {
+        logo.style.opacity = '1';
+        logo.style.transform = 'scale(1)';
+    }, 500);
+});
+
+ // Анимация появления баннера
+window.addEventListener('load', function () {
+    const banner = document.querySelector('.photo-module img');
+    banner.style.opacity = '0';
+    banner.style.transform = 'scale(0.9)';
+    banner.style.transition = 'opacity 1s ease, transform 1s ease';
+
+    setTimeout(() => {
+        banner.style.opacity = '1';
+        banner.style.transform = 'scale(1)';
+    }, 1000);
+});
+
